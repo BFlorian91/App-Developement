@@ -12,6 +12,9 @@ import CoreLocation
 class ViewController: UIViewController, CLLocationManagerDelegate {
 
     @IBOutlet weak var localisationLabel: UILabel!
+    @IBOutlet weak var latitudeLabel: UILabel!
+    @IBOutlet weak var longitudeLabel: UILabel!
+    @IBOutlet weak var viewContainer: UIView!
     
     let locationManager = CLLocationManager()
     
@@ -28,12 +31,25 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
     
+    @IBAction func updateLocationButton(_ sender: UIButton) {
+        locationManager.startUpdatingLocation()
+    }
     
-    // Print out the location to the console
+    // Print out the location to the console && in the Labels
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.first {
-            print(location.coordinate)
+            
+            let latitude = String(location.coordinate.latitude)
+            let longitude = String(location.coordinate.longitude)
+            
+            latitudeLabel.text = latitude
+            longitudeLabel.text = longitude
+            
+            print(latitude + "\n" + longitude)
             locationManager.stopUpdatingLocation()
+            
+            
+            viewContainer.layer.cornerRadius = 10
         }
     }
     
