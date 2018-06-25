@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A1563820DD815500359A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A1563720DD815500359A5D /* AppDelegate.swift */; };
+		17A1563A20DD815500359A5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A1563920DD815500359A5D /* ViewController.swift */; };
+		17A1563D20DD815500359A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A1563B20DD815500359A5D /* Main.storyboard */; };
+		17A1563F20DD815600359A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A1563E20DD815600359A5D /* Assets.xcassets */; };
+		17A1564220DD815600359A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A1564020DD815600359A5D /* LaunchScreen.storyboard */; };
+		17A1564E20DD841400359A5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A1564D20DD841400359A5D /* Default-568h@2x.png */; };
+		17A1565020DDB95800359A5D /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A1564F20DDB95800359A5D /* WeatherDataModel.swift */; };
+		F69968EF5F4413F723854B3D /* Pods_UVCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD2DE866C44CC02A5C58305 /* Pods_UVCare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C2B9E5216FE066579A33231 /* Pods-UVCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVCare.release.xcconfig"; path = "Pods/Target Support Files/Pods-UVCare/Pods-UVCare.release.xcconfig"; sourceTree = "<group>"; };
+		17A1563420DD815500359A5D /* UVCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UVCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A1563720DD815500359A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17A1563920DD815500359A5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17A1563C20DD815500359A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17A1563E20DD815600359A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17A1564120DD815600359A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17A1564320DD815600359A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A1564D20DD841400359A5D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		17A1564F20DDB95800359A5D /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		B88530A3B0B05134D8762CA2 /* Pods-UVCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVCare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UVCare/Pods-UVCare.debug.xcconfig"; sourceTree = "<group>"; };
+		BBD2DE866C44CC02A5C58305 /* Pods_UVCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UVCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17A1563120DD815500359A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69968EF5F4413F723854B3D /* Pods_UVCare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A28CB1C2C252F1ABD3CF4F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B88530A3B0B05134D8762CA2 /* Pods-UVCare.debug.xcconfig */,
+				0C2B9E5216FE066579A33231 /* Pods-UVCare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		17A1562B20DD815500359A5D = {
+			isa = PBXGroup;
+			children = (
+				17A1564D20DD841400359A5D /* Default-568h@2x.png */,
+				17A1563620DD815500359A5D /* UVCare */,
+				17A1563520DD815500359A5D /* Products */,
+				0A28CB1C2C252F1ABD3CF4F5 /* Pods */,
+				7CBC89001328A946EE618187 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17A1563520DD815500359A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17A1563420DD815500359A5D /* UVCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17A1563620DD815500359A5D /* UVCare */ = {
+			isa = PBXGroup;
+			children = (
+				17A1564C20DD83D200359A5D /* Model */,
+				17A1564B20DD83CC00359A5D /* View */,
+				17A1564A20DD83C000359A5D /* Controller */,
+				17A1564920DD83B300359A5D /* Supported Files */,
+			);
+			path = UVCare;
+			sourceTree = "<group>";
+		};
+		17A1564920DD83B300359A5D /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				17A1564320DD815600359A5D /* Info.plist */,
+				17A1563E20DD815600359A5D /* Assets.xcassets */,
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		17A1564A20DD83C000359A5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17A1563720DD815500359A5D /* AppDelegate.swift */,
+				17A1563920DD815500359A5D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		17A1564B20DD83CC00359A5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17A1563B20DD815500359A5D /* Main.storyboard */,
+				17A1564020DD815600359A5D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17A1564C20DD83D200359A5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17A1564F20DDB95800359A5D /* WeatherDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CBC89001328A946EE618187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2DE866C44CC02A5C58305 /* Pods_UVCare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17A1563320DD815500359A5D /* UVCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A1564620DD815600359A5D /* Build configuration list for PBXNativeTarget "UVCare" */;
+			buildPhases = (
+				CAE7B0D885AB7F2D25DCEA62 /* [CP] Check Pods Manifest.lock */,
+				17A1563020DD815500359A5D /* Sources */,
+				17A1563120DD815500359A5D /* Frameworks */,
+				17A1563220DD815500359A5D /* Resources */,
+				EBE42E70E1B0159C7CDF7D25 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UVCare;
+			productName = UVCare;
+			productReference = 17A1563420DD815500359A5D /* UVCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17A1562C20DD815500359A5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = com.Florian;
+				TargetAttributes = {
+					17A1563320DD815500359A5D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 17A1562F20DD815500359A5D /* Build configuration list for PBXProject "UVCare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17A1562B20DD815500359A5D;
+			productRefGroup = 17A1563520DD815500359A5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17A1563320DD815500359A5D /* UVCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17A1563220DD815500359A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A1564220DD815600359A5D /* LaunchScreen.storyboard in Resources */,
+				17A1564E20DD841400359A5D /* Default-568h@2x.png in Resources */,
+				17A1563F20DD815600359A5D /* Assets.xcassets in Resources */,
+				17A1563D20DD815500359A5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAE7B0D885AB7F2D25DCEA62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UVCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBE42E70E1B0159C7CDF7D25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UVCare/Pods-UVCare-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTProgressBar/GTProgressBar.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UVCare/Pods-UVCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17A1563020DD815500359A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A1563A20DD815500359A5D /* ViewController.swift in Sources */,
+				17A1563820DD815500359A5D /* AppDelegate.swift in Sources */,
+				17A1565020DDB95800359A5D /* WeatherDataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17A1563B20DD815500359A5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A1563C20DD815500359A5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17A1564020DD815600359A5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A1564120DD815600359A5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17A1564420DD815600359A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17A1564520DD815600359A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17A1564720DD815600359A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88530A3B0B05134D8762CA2 /* Pods-UVCare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG8SVVBJCM;
+				INFOPLIST_FILE = "$(SRCROOT)/UVCare/Supported Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Florian-B.UVCare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		17A1564820DD815600359A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2B9E5216FE066579A33231 /* Pods-UVCare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG8SVVBJCM;
+				INFOPLIST_FILE = "$(SRCROOT)/UVCare/Supported Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Florian-B.UVCare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17A1562F20DD815500359A5D /* Build configuration list for PBXProject "UVCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A1564420DD815600359A5D /* Debug */,
+				17A1564520DD815600359A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A1564620DD815600359A5D /* Build configuration list for PBXNativeTarget "UVCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A1564720DD815600359A5D /* Debug */,
+				17A1564820DD815600359A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17A1562C20DD815500359A5D /* Project object */;
+}

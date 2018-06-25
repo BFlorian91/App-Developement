@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.7.2)
+  - GTProgressBar (0.3.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GTProgressBar
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - GTProgressBar
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  GTProgressBar: de0d8b060255025b590c9a2fe55846394a674de0
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 4c625ba596b46e9c6e96eba8ca710a8d1804fce1
+
+COCOAPODS: 1.5.3

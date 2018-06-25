@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+class WeatherDataModel {
+    
+    var uvIndex: Int = 0
+    var city: String = ""
+    
+}
