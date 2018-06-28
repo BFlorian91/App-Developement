@@ -12,6 +12,7 @@
 		17B521FB20E53B3F00968855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B521F920E53B3F00968855 /* Main.storyboard */; };
 		17B521FD20E53B4100968855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B521FC20E53B4100968855 /* Assets.xcassets */; };
 		17B5220020E53B4100968855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B521FE20E53B4100968855 /* LaunchScreen.storyboard */; };
+		17B5220920E5417600968855 /* Galada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17B5220820E5417500968855 /* Galada-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		17B521FC20E53B4100968855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17B521FF20E53B4100968855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17B5220120E53B4100968855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B5220820E5417500968855 /* Galada-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Galada-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				17B521F420E53B3F00968855 /* foodmatch */,
+				17B5220720E5415500968855 /* font */,
 				17B521F320E53B3F00968855 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +65,14 @@
 				17B5220120E53B4100968855 /* Info.plist */,
 			);
 			path = foodmatch;
+			sourceTree = "<group>";
+		};
+		17B5220720E5415500968855 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				17B5220820E5417500968855 /* Galada-Regular.ttf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 				17B5220020E53B4100968855 /* LaunchScreen.storyboard in Resources */,
 				17B521FD20E53B4100968855 /* Assets.xcassets in Resources */,
 				17B521FB20E53B3F00968855 /* Main.storyboard in Resources */,
+				17B5220920E5417600968855 /* Galada-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Florian-B.foodmatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Florian-B.foodmatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
