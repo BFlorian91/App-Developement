@@ -68,8 +68,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     func getBitcoinPriceData(url: String) {
         
-        Alamofire.request(url, method: .get)
-            .responseJSON { response in
+        Alamofire.request(url, method: .get).responseJSON {
+            response in
                 if response.result.isSuccess {
 
                     print("Sucess! Got the bitcoin price data")
