@@ -22,7 +22,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     //Constants
     let url = "http://api.openweathermap.org/data/2.5/uvi?"
-    let APP_ID = "d73937eca684ab25d1f516dba202a37c"
+    let APP_ID = "d34243423424324324342432"
     
     //Instances Variables
     let locationManager = CLLocationManager()
