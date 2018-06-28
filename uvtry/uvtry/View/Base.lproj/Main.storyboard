@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,41 +15,48 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="uvtry" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UVDanger" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRd-p5-0BM">
-                                <rect key="frame" x="70" y="108" width="235" height="71"/>
+                                <rect key="frame" x="70" y="279" width="235" height="71"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dzT-hX-6bF" userLabel="uvView">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <rect key="frame" x="67" y="420" width="240" height="128"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UVValue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oz9-xR-JW4">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UVValue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oz9-xR-JW4">
                                         <rect key="frame" x="47" y="38" width="146" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="45"/>
                                         <color key="textColor" red="1" green="0.62049442249999998" blue="0.20498745879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.19917746047274781" green="0.21067131074158016" blue="0.25791164340101524" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Oz9-xR-JW4" secondAttribute="trailing" id="8QG-JM-RLU"/>
-                                    <constraint firstItem="Oz9-xR-JW4" firstAttribute="top" secondItem="dzT-hX-6bF" secondAttribute="top" constant="38" id="ib0-7Y-vlr"/>
-                                    <constraint firstItem="Oz9-xR-JW4" firstAttribute="centerX" secondItem="dzT-hX-6bF" secondAttribute="centerX" id="qJR-Ed-LtS"/>
-                                    <constraint firstAttribute="bottom" secondItem="Oz9-xR-JW4" secondAttribute="bottom" constant="36.5" id="yH6-d7-blV"/>
-                                    <constraint firstItem="Oz9-xR-JW4" firstAttribute="leading" secondItem="dzT-hX-6bF" secondAttribute="leading" constant="47" id="yfu-Y4-sdH"/>
+                                    <constraint firstAttribute="width" constant="240" id="APU-x8-OL5"/>
+                                    <constraint firstAttribute="height" constant="128" id="Ab4-r0-BkL"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sun" translatesAutoresizingMaskIntoConstraints="NO" id="s6F-KW-xx9">
+                                <rect key="frame" x="127" y="124" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="6Ob-Bd-saK"/>
+                                    <constraint firstAttribute="width" constant="120" id="dZw-FJ-ym4"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.27323981739999997" green="0.38467601219999997" blue="0.50350967639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.22745098039215686" green="0.24705882352941178" blue="0.30588235294117649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="oRd-p5-0BM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3dy-1N-yog"/>
-                            <constraint firstItem="dzT-hX-6bF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CZz-4G-ZkP"/>
-                            <constraint firstItem="dzT-hX-6bF" firstAttribute="top" secondItem="oRd-p5-0BM" secondAttribute="bottom" constant="90" id="DLk-G2-yV1"/>
-                            <constraint firstItem="dzT-hX-6bF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GsO-mA-Zts"/>
+                            <constraint firstItem="s6F-KW-xx9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="3PH-YH-dl9"/>
+                            <constraint firstItem="s6F-KW-xx9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4O7-WV-p4J"/>
+                            <constraint firstItem="dzT-hX-6bF" firstAttribute="top" secondItem="oRd-p5-0BM" secondAttribute="bottom" constant="70" id="63b-FA-8O3"/>
+                            <constraint firstItem="oRd-p5-0BM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CoQ-GN-1Sv"/>
+                            <constraint firstItem="oRd-p5-0BM" firstAttribute="top" secondItem="s6F-KW-xx9" secondAttribute="bottom" constant="35" id="EKn-7j-Xhc"/>
+                            <constraint firstItem="dzT-hX-6bF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zc0-pl-eZo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -61,7 +68,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="32.833583208395808"/>
+            <point key="canvasLocation" x="32.799999999999997" y="32.512315270935964"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sun" width="687" height="720"/>
+    </resources>
 </document>

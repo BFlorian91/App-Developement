@@ -25,16 +25,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        uvView.layer.cornerRadius = 10
-
-        weatherData(url: url, param: ["lat": 21.30, "lon" : -3.40, "appid" : API_KEY])
+        uvView.layer.cornerRadius = 20
+        weatherData(url: url, param: ["lat": 48.60, "lon" : 3.50, "appid" : API_KEY])
     }
  
     func weatherData(url: String, param: [String : Any]) {
         Alamofire.request(url, method: .get, parameters: param).responseJSON { (response) in
             if response.result.isSuccess {
                 let uvJSON : JSON = JSON(response.result.value!)
-                
+
                 self.updateWeatherData(json: uvJSON)
                 print(uvJSON)
             } else if response.result.isFailure {
